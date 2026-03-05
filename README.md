@@ -20,7 +20,7 @@ A zero-dependency, lightweight GPU task queue with native Shadow Reservation sch
 #### 1. 启动常驻调度服务
 建议将输出重定向到日志文件中，方便后续查看服务状态和报错：
 ```bash
-nohup python task_queue.py server --device_num 8 > queue_server.log 2>&1 &
+nohup python task_queue.py server --device_num {GPU_numbers} > queue_server.log 2>&1 &
 ```
 
 #### 2. 环境管理 (注册与查看)
