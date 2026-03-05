@@ -4,8 +4,6 @@ A zero-dependency, lightweight GPU task queue with native Shadow Reservation sch
 
 # LiteGPUTQ (Lite GPU Task Queue)
 
-[中文版](#中文版) | [English Version](#english-version)
-
 ---
 
 <h2 id="中文版"> 🇨🇳 中文版</h2>
