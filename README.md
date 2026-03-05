@@ -8,7 +8,7 @@ A zero-dependency, lightweight GPU task queue with native Shadow Reservation sch
 
 <h2 id="中文版"> 🇨🇳 中文版</h2>
 
-**LiteGPUTQ** 是一个极简、零依赖的轻量级 GPU 多卡任务队列与调度服务。原生实现了**“影子预占 (Shadow Reservation)”**调度算法，完美解决多任务间的 GPU 资源抢占与阻塞问题。
+**Task-Queue-On-Linux-Server** 是一个极简、零依赖的轻量级 GPU 多卡任务队列与调度服务。原生实现了**“影子预占 (Shadow Reservation)”**调度算法，完美解决多任务间的 GPU 资源抢占与阻塞问题。
 
 ### ✨ 核心特性
 - **🚀 零依赖**：仅使用 Python 标准库，无需 pip install，下载即用。
@@ -40,7 +40,7 @@ python task_queue.py history
 
 <h2 id="english-version"> 🇬🇧 English Version</h2>
 
-**LiteGPUTQ** is a minimalist, zero-dependency GPU task queue. It natively implements the **Shadow Reservation** scheduling algorithm, resolving GPU resource contention and blocking issues gracefully.
+**Task-Queue-On-Linux-Server** is a minimalist, zero-dependency GPU task queue. It natively implements the **Shadow Reservation** scheduling algorithm, resolving GPU resource contention and blocking issues gracefully.
 
 ### 🛠️ Quick Start
 #### Start the resident daemon service:
