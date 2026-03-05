@@ -37,7 +37,7 @@ python task_queue.py env_list
 ```
 
 #### 3. 提交任务 (Add)
-使用 `--python` 参数调用预先注册的环境，系统会自动解析命令中的 `CUDA_VISIBLE_DEVICES` 分配卡位：
+使用 `--python` 参数调用预先注册的环境，系统会自动解析命令中的 `CUDA_VISIBLE_DEVICES` 分配卡位：如果不写CUDA_VISIBLE_DEVICES，则系统将默认你这个任务需要全部GPU（尽管实际上可能不需要），这意味着这个任务将阻塞之后的所有任务。使用不同GPU的任务可以同时执行。
 
 **普通单卡/多卡 Python 任务：**
 ```bash
